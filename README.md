@@ -1,5 +1,3 @@
-![DoorPi](http://wellsosaur.us/YIA6/Untitled%20Sketch_bb.png)
-
 # DoorPi
 
 Plays a chime when the Envoy front door is opened.
