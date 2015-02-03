@@ -18,9 +18,9 @@ Plays a chime when the Envoy front door is opened.
 **Note: These are *very* loose instructions to help get you started. This guide won't cover the basics of electronic wiring, and Raspbian (the Raspberry Pi flavored Linux distro)**
 
 1. Install [Raspbian Wheezy](http://www.raspberrypi.org/help/noobs-setup/) – I recommend using NOOBS (linked) because it's easier.
-1. Use the `raspi-config` menu to change the default password and set your time zone. **Don't skip this step.**
+1. Use the `raspi-config` menu to change the default password, set the charset to UTF-8, and set your time zone. **Don't skip this step.**
 1. Add the [wi-fi config](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-3-network-setup/setting-up-wifi-with-occidentalis)
-1. Once at the command prompt, run `apt get update` and `apt-get upgrade` to update your base system.
+1. Once at the command prompt, run `sudo apt-get update` and `sudo apt-get upgrade` to update your base system.
 1. Run `apt-get install git`
 1. Clone the repo `git clone git@github.com:OutrageousLabs/doorpi.git`
 1. `sudo mv rc.local /etc/rc.local` – this overwrites the default rc.local with one that runs the required scripts on boot.
